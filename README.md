@@ -49,8 +49,8 @@
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/secuscan-pro.git
-cd secuscan-pro
+git clone https://github.com/RicheByte/PentestGPT.git
+cd PentestGPT
 
 # Create virtual environment
 python -m venv venv
@@ -94,12 +94,12 @@ Sample payload file (`payloads/directory_traversal.json`):
 
 ### Basic Scan
 ```bash
-python secuscan.py --target https://example.com --threads 8
+python Pen.py --target https://example.com --threads 8
 ```
 
 ### Full Audit with AI Analysis
 ```bash
-python secuscan.py --target https://example.com \
+python pen.py --target https://example.com \
                    --crawl \
                    --auth admin password123 \
                    --report-format html \
