@@ -183,7 +183,7 @@ python pen.py --target https://example.com \
 
 ## License 📜
 
-MIT License - See [LICENSE](LICENSE) for full text
+MIT License - See [LICENSE](LICENSE) 
 
 ---
 
