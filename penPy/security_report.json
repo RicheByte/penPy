@@ -1,0 +1,10 @@
+{
+  "scan_date": "Sun Oct 19 11:42:23 2025",
+  "total_vulnerabilities": 0,
+  "vulnerabilities": [],
+  "summary": {
+    "critical": 0,
+    "medium": 0,
+    "low": 0
+  }
+}

@@ -1,0 +1,7 @@
+requests
+google-generativeai
+beautifulsoup4
+dnspython
+cryptography
+urllib3
+fake-useragent
