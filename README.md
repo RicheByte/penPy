@@ -1,7 +1,4 @@
-# PentestGPT
-
-
-# PentestGPT Pro: Advanced Penetration Testing Tool
+# PenPy : Advanced Penetration Testing Tool
 
 ![Security Shield](https://img.icons8.com/color/96/000000/security-checked--v2.png)  
 *A comprehensive security auditing tool with AI-powered analysis*
