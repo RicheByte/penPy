@@ -46,8 +46,8 @@
 
 ```bash
 # Clone repository
-git clone https://github.com/RicheByte/PentestGPT.git
-cd PentestGPT
+git clone https://github.com/RicheByte/penPy
+cd penPy
 
 # Create virtual environment
 python -m venv venv
