@@ -1,4 +1,4 @@
-# PenPy : Advanced Penetration Testing Tool
+ # PenPy : Advanced Penetration Testing Tool
 
 ![Security Shield](https://img.icons8.com/color/96/000000/security-checked--v2.png)  
 *A comprehensive security auditing tool with AI-powered analysis*
@@ -15,7 +15,7 @@
 - [Credits](#credits)
 - [License](#license)
 
-## Features 🛡️
+## Features 
 - **Multi-Vector Vulnerability Scanning**
   - Directory Traversal
   - Command Injection
@@ -38,7 +38,7 @@
   - Payload sanitization
   - Certificate validation
 
-## Installation 💻
+## Installation 
 
 ### Requirements
 - Python 3.8+
@@ -87,7 +87,7 @@ Sample payload file (`payloads/directory_traversal.json`):
 }
 ```
 
-## Usage 🚀
+## Usage 
 
 ### Basic Scan
 ```bash
@@ -114,7 +114,7 @@ python pen.py --target https://example.com \
 | `--threads` | Concurrent workers (default: 5) |
 | `--allow-ai-analysis` | Enable OpenAI integration |
 
-## Technical Specifications 📊
+## Technical Specifications 
 
 | Category | Details |
 |----------|---------|
@@ -124,7 +124,7 @@ python pen.py --target https://example.com \
 | **Data Handling** | No persistent storage |
 | **Network Requirements** | Outbound HTTPS access |
 
-## Security Considerations 🔒
+## Security Considerations 
 
 1. **Legal Compliance**
    - Obtain proper authorization before scanning
@@ -141,7 +141,7 @@ python pen.py --target https://example.com \
    - Response data truncated before API submission
    - No sensitive data storage
 
-## Sample Reports 📄
+## Sample Reports 
 
 **JSON Report Excerpt**
 ```json
@@ -163,7 +163,7 @@ python pen.py --target https://example.com \
 - Response snippet viewer
 - Exportable findings list
 
-## Troubleshooting 🛠️
+## Troubleshooting 
 
 | Issue | Solution |
 |-------|----------|
@@ -172,16 +172,12 @@ python pen.py --target https://example.com \
 | `API Timeouts` | Reduce thread count with `--threads 3` |
 | `Encoding Errors` | Set `export PYTHONIOENCODING=utf-8` |
 
-## Credits 👏
+## Credits 
 
 - **OWASP Foundation** - Vulnerability references
 - **OpenAI** - GPT-3.5 Turbo integration
 - **Cryptography** - X.509 certificate handling
 
-## License 📜
 
-MIT License - See [LICENSE](LICENSE) 
-
----
 
 **Disclaimer**: This tool should only be used on systems with explicit authorization. The developers assume no liability for unauthorized or malicious use. Always conduct security testing in controlled environments.
